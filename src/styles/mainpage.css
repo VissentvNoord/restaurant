@@ -1,0 +1,32 @@
+html,body{
+    height: 100%;
+    margin: 0px;
+}
+
+body{
+    display: grid;
+    background-color: white;
+
+    grid-template-rows: 0.15fr 1fr;
+}
+
+div#content{
+    justify-self: center;
+    align-self: center;
+
+    height: 100%;
+    width: 100%;
+    max-width: 1200px;
+    background-color: black;
+
+    display: grid;
+
+    margin: 100px;
+}
+
+.title{
+    color: white;
+
+    justify-self: center;
+    align-self: center;
+}
