@@ -12,6 +12,8 @@
     height: 50px;
     width: 85%;
 
+    transition: all .5s ease-out;
+
     border: none;
     border-radius: 25px;
 
@@ -23,5 +25,4 @@
     height: 65px;
     width: 100%;
     transition: all .05s ease-in;
-
 }

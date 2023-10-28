@@ -1,3 +1,7 @@
+:root{
+    --bgImage: url('/src/images/mainpagebackground.jpg');
+}
+
 html,body{
     height: 100%;
     margin: 0px;
@@ -7,6 +11,9 @@ body{
     display: grid;
     background-color: white;
 
+    background-image: var(--bgImage);
+    background-size: cover;
+
     grid-template-rows: 0.15fr 1fr;
 }
 
@@ -14,19 +21,28 @@ div#content{
     justify-self: center;
     align-self: center;
 
-    height: 100%;
-    width: 100%;
-    max-width: 1200px;
-    background-color: black;
+    height: 80%;
+    width: 65%;
+    max-width: 800px;
+    min-width: 500px;
+    background-color: white;
+
+    border-radius: 25px;
 
     display: grid;
 
     margin: 100px;
 }
 
-.title{
-    color: white;
+#content>div{
+    display: grid;
+}
 
+#content>div.main{
+
+}
+
+.title{
     justify-self: center;
     align-self: center;
 }
